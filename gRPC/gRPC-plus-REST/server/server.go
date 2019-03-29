@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"sync"
 
+	pb "github.com/enriquebris/building-an-api-with-golang/gRPC/gRPC-plus-REST/pb"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	pb "github.com/maddevsio/grpc-rest-api-example/pb"
 	"google.golang.org/grpc"
 )
 

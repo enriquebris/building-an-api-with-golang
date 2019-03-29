@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/maddevsio/grpc-rest-api-example/pb"
+	pb "github.com/enriquebris/building-an-api-with-golang/gRPC/gRPC-plus-REST/pb"
 	"google.golang.org/grpc"
 )
 
