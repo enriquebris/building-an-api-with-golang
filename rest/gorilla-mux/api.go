@@ -24,6 +24,7 @@ func initAPI(port string) {
 
 	//endpoints
 	router.HandleFunc("/api/v1/ping", pingGET).Methods("GET")
+	router.HandleFunc("/api/v1/status", statusGET).Methods("GET")
 
 	router.HandleFunc(`/api/v1/user/{id:[a-zA-Z0-9\-]+}`, userGET).Methods("GET")
 	router.HandleFunc(`/api/v1/user/`, userPOST).Methods("POST")
